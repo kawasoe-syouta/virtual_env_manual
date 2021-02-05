@@ -28,11 +28,11 @@ Enter your choice: 3
 Vagrantの作業用ディレクトリを作成します。
 `mkdir vagrant_test`  
 作成したフォルダの中で以下のコマンドを実行します。
-
-`cd vagrant_test`
+```
+cd vagrant_test
 vagrant init box名 先ほどダウンロードしたboxを使用することになります
-`vagrant init centos/7`
-
+vagrant init centos/7
+```
 実行後問題なければ以下のような文言が表示されます  
 
     A Vagrantfile has been placed in this directory. You are now  
